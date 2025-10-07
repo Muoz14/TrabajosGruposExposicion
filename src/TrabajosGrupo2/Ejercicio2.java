@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Ejercicio2 {
 
-    public static void main(String[] args){
+    public static void ejercicio2(){
 
         /// Programa que le muestra el mes del año al usuario dependiendo del numero entre 1 y 12 ingresado
 
@@ -17,6 +17,12 @@ public class Ejercicio2 {
         numero = entrada.nextInt();
 
         System.out.println(c.Meses(numero));
+
+    }
+
+    public static void main(String[] args){
+
+        ejercicio2();
 
     }
 

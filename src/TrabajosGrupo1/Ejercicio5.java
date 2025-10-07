@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Ejercicio5 {
 
-    public static void main (String[] args){
+    public static void ejercicio5 (){
 
         /// Programa que pide la edad al usuario y que devuelve si es menor de edad, mayor, mayoria o tercera edad.
 
@@ -18,6 +18,12 @@ public class Ejercicio5 {
         edad = entrada.nextInt();
 
         System.out.println(c.edades(edad));
+
+    }
+
+    public static void main(String[] args){
+
+        ejercicio5();
 
     }
 

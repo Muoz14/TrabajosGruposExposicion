@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Ejercicio3 {
 
-    public static void main(String[] args){
+    public static void ejercicio3(){
 
         /// Programa que devuelve cual de los dos numeros ingresados es el mayor y cual es el menor.
 
@@ -22,6 +22,12 @@ public class Ejercicio3 {
 
         System.out.println(c.mayorMenor(n1, n2));
 
+
+    }
+
+    public static void main(String[] args){
+
+        ejercicio3();
 
     }
 

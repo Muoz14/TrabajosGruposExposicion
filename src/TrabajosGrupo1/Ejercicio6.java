@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Ejercicio6 {
 
-    public static void main (String[] args){
+    public static void ejercicio6 (){
 
         /// Programa que pide 2 numeros y le da la opcion al usuario de elejir que operacion aritmetica desea realizar
 
@@ -32,6 +32,12 @@ public class Ejercicio6 {
         operacion = entrada.next();
 
         System.out.println("El resultado de la operacion es = " + c.operaciones(n1, n2, operacion));
+
+    }
+
+    public static void main(String[] args){
+
+        ejercicio6();
 
     }
 

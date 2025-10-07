@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicio2 {
 
-    public static void main(String[] args){
+    public static void ejercicio2(){
 
         /// Programa que calcula el total a pagar y aniade 5% de descuento a un producto cuyo costo sea > 100
 
@@ -23,6 +23,12 @@ public class Ejercicio2 {
         System.out.println("----- FACTURA -----");
 
         c.totalPagar(pProducto);
+
+    }
+
+    public static void main(String[] args){
+
+        ejercicio2();
 
     }
 }

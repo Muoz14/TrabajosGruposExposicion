@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Ejercicio7 {
 
-    public static void main(String[] args){
+    public static void ejercicio7(){
 
         /// PROGRAMA QUE PIDE AL USUARIO UN NUMERO ENTERO POSITIVO AL USUARIO Y LO CONVIERTE
         /// EN UN NUMERO ROMANO DESDE EL 1 AL 3999.
@@ -32,7 +32,11 @@ public class Ejercicio7 {
 
         }
 
-        entrada.close();
+    }
+
+    public static void main(String[] args){
+
+        ejercicio7();
 
     }
 

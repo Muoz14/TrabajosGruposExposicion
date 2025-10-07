@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
 
-    public static void main(String[] args){
+    public static void ejercicio4(){
 
         Scanner entrada = new Scanner(System.in);
         Casos c = new Casos();
@@ -18,6 +18,12 @@ public class Ejercicio4 {
 
         System.out.println(c.colorePrimarios(color));
 
+
+    }
+
+    public static void main(String[] args){
+
+        ejercicio4();
 
     }
 

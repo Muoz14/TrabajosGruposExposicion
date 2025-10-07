@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Ejercicio3 {
 
-    public static void main(String[] args){
+    public static void ejercicio3(){
 
         /// Programa que le pide al usuario ingresar un caracter y evalua si este es una vocal o no.
 
@@ -21,6 +21,12 @@ public class Ejercicio3 {
 
         System.out.println(c.Vocal(caracter));
 
+
+    }
+
+    public static void main(String[] args){
+
+        ejercicio3();
 
     }
 

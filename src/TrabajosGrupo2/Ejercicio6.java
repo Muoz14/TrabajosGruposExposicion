@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Ejercicio6 {
 
-    public static void main(String[] args){
+    public static void ejercicio6(){
 
         Scanner entrada = new Scanner(System.in);
         Casos c = new Casos();
@@ -27,5 +27,10 @@ public class Ejercicio6 {
 
     }
 
+    public static void main(String[] args){
+
+        ejercicio6();
+
+    }
 
 }

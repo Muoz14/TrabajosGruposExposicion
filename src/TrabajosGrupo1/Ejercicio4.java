@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
 
-    public static void main(String[] args){
+    public static void ejercicio4(){
 
         //Programa que devuelve el mayor y menor de 3 numeros ingresados por el usuario
 
@@ -24,6 +24,12 @@ public class Ejercicio4 {
         n3 = entrada.nextInt();
 
         System.out.println(c.mayorMenor3Nums(n1, n2, n3));
+
+    }
+
+    public static void main(String[] args){
+
+        ejercicio4();
 
     }
 
